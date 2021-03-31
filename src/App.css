@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+
+.big-title {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  position: absolute;
+}
+
+.card-img {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  padding: 20px;
+  display: flex;
+  width: 70vh;
+  height: 47vh;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1,1);
+  transition: 1s;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* z-index: 2; */
+}
+.card-img:hover{
+  opacity: 0.5;
+  transform: scale(1.1, 1.1);
+}
+
+.navbar {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  justify-content: center;
+  display: flex;
+}
+
+.navbar a {
+  color: #ace0f9;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+}
+
+.navbar a:hover {
+  background-color: #ace0f9;
+  color: #330867;
+}
+
+.navbar a.active {
+  background-color: #718792;
+  color: #fff;
+}
+
+
+/* .card-content2 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  /* background-image: url(https://bigseventravel.com/wp-content/uploads/2019/11/john-hernandez-IL-fBBnF-GU-unsplash-1920x1440.jpg); */
+  /* background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+} */
+
+/* .card-content2:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.card-content3 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/26368511/thumb/1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+} */
+
+/* .card-content3:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.card-content4 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://images.memphistours.com/large/34d5b5a3fbaa4b3b5d9487bf924b0145.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+}
+.card-content4:hover{
+  transform: scale(1.1, 1.1);
+} */
+
+
+/* .card-content5 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/5aa10544d3806c25541af273.jpg);
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+}
+.card-content5:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.card-content6 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221130827/iStock-155381519.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+}
+.card-content6:hover{
+  transform: scale(1.1, 1.1);
+} */
+
+/* .card-content7 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://www.qantas.com/content/travelinsider/en/explore/europe/italy/venice/things-you-need-to-know-before-you-go-to-venice/_jcr_content/parsysTop/hero.img.full.medium.jpg/1535006246068.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+}
+.card-content7:hover{
+  transform: scale(1.1, 1.1);
+}
+
+
+.card-content8 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://lp-cms-production.imgix.net/2020-11/GettyRF_494057771.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+}
+.card-content8:hover{
+  transform: scale(1.1, 1.1);
+}
+
+
+.card-content9 {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 50vh;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm9ydGhlcm4lMjBsaWdodHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: scale(1,1);
+  transition: 1s;
+}
+.card-content9:hover{
+  transform: scale(1.1, 1.1);
+} */
