@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    padding: 20px;
+    background-color: #29323c;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 1rem;
+    width: 600px;
+    position: relative;
+  }
+/* .cards:hover{
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+  } */
+
+  .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title h2{
+      margin: 0;
+      color: white;
+  }
+
+  .cards img {
+    /* border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    padding: 20px;
+    display: flex;
+    width: 70vh;
+    height: 47vh;
+    align-items: center;
+    transform: scale(1,1);
+    transition: 1s;
+    position: relative; */
+    object-fit: fill;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 400px;
+    /* max-width: 100%; */
+    width: 600px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .cards img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+
+  .card-over{
+      /* position: absolute; */
+      /* background-color: black; */
+      /* color: white; */
+      /* display: flex; */
+      /* bottom: 15; */
+      /* left: 15px; */
+      /* right: 0; */
+      /* overflow: hidden; */
+      /* max-height: 10%; */
+      /* flex-wrap: wrap; */
+      /* padding: 12rem; */
+      /* transform: translateY(50%); */
+      /* transition: transform 0.5s ease-in-out; */
+        position: absolute;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: auto;
+        max-height: 100%;
+        padding: 1rem;
+        transform: translateY(100%);
+        transition: transform 0.5s ease-in-out;
+  }
+
+  .cards:hover .card-over {
+      transform: translateY(0%);
+  }

@@ -1,16 +1,22 @@
 
 import React from 'react';
 import {data} from './data';
+import "./Card.css"
 
 const Card = () => {
     return(
         <div className="card-container">
             {data.map((card) => {
                 return (
-                    <div className="img-wrap">
-                        <img className="card-img" src={card.image}/>
-                        <h2 className="title">{card.title}</h2>
-                        <p className="desc">{card.desc}</p>
+                    <div className="cards">
+                        <div className="title">
+                            <h2>{card.title}</h2>
+                        </div>
+                        <img src={card.image}/>
+                        
+                        <div className="card-over">
+                            <p>{card.desc}</p>
+                        </div>
                     </div>
                 )
             })}
