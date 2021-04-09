@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {data} from './data';
+import {data} from '../../helpers/data';
 import "./Card.css"
 
 const Card = () => {
