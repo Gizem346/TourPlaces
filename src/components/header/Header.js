@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <div className="big-title">
    
-       <h3>POPULAR TOUR PLACES</h3>
+            <h3>POPULAR TOUR PLACES</h3>
             
         </div>
     )
