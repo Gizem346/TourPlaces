@@ -14,13 +14,13 @@
     margin: 1rem;
     /* width: 500px; */
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
 
   .title {
     font-family: 'Amatic SC', cursive;
     font-size: 36px;
-    display: flex;
+    /* display: flex; */
     padding: 1rem;
     /* align-items: center; */
     /* justify-content: space-between; */
